@@ -16,34 +16,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 });
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     document.getElementById('discount-row').addEventListener('click', function(e){
-//         if (e.target.classList.contains('goGreen')) {
-//             e.preventDefault();
-//             document.getElementById('goGreen').innerHTML = e.target.dataset['goGreen'];
-//             bootstrap.Toast.getOrCreateInstance(document.getElementById('liveGreen')).show();
-//           }
-//     });
-// });
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     document.getElementById('discount-row').addEventListener('click', function(e){
-//         if (e.target.classList.contains('pronouce')) {
-//             e.preventDefault();
-//             document.getElementById('pronouce').innerHTML = e.target.dataset['pronouce'];
-//             bootstrap.Toast.getOrCreateInstance(document.getElementById('livePronouce')).show();   
-//           }  
-//     });
-           
-
-
-    //     document.keydown(function(e) {
-    //         // ESCAPE key pressed
-    //         if (e.keyCode.keydown == 27) {
-    //             // document.getElementById('livePronouce').hide();
-    //             console;e
-    //         }
-
-    // });
-// });
